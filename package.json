@@ -1,0 +1,60 @@
+{
+  "name": "longview-data",
+  "version": "0.0.0",
+  "description": "Get data on your servers from linode longview",
+  "homepage": "http://github.com/telega/longview-data",
+  "author": {
+    "name": "Thomas Allen",
+    "email": "tom@telega.org",
+    "url": "http://telega.org"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "linode",
+    "longview"
+  ],
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.14.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    },
+    "rules": {
+      "camelcase": "warn",
+      "indent": [
+        "error",
+        "tab"
+      ]
+    }
+  },
+  "repository": "git@github.com:telega/longview-data.git",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT",
+  "bin": "lib/cli.js",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "async": "^2.0.1",
+    "colors": "^1.1.2",
+    "meow": "^3.7.0",
+    "pretty-bytes": "^3.0.1",
+    "prettysize": "0.0.3",
+    "request": "^2.74.0"
+  }
+}
