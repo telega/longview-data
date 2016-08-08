@@ -4,7 +4,7 @@ Get data on your servers from [linode longview](https://www.linode.com/longview)
 
 ## Work in Progress
 
-Currently gets Distro, Uptime, Memory Usage. More/prettier soon. 
+Currently gets Distro, Uptime, Memory Usage, Disk Usage. More/prettier soon. 
 
 ## Installation
 
@@ -14,7 +14,7 @@ $ npm install --save longview-data
 
 ## Usage
 
-It's a CLI tool, provide a list of your keys from longview.
+It's a CLI tool, provide a list of your keys from longview. eg:
 
 ```sh
 $ node cli MyLongviewKey1 MyLongviewKey2
