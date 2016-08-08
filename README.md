@@ -4,7 +4,7 @@ Get data on your servers from [linode longview](https://www.linode.com/longview)
 
 ## Work in Progress
 
-Currently gets Distro, Uptime, Memory Usage, Disk Usage. More/prettier soon. 
+Currently gets Distro, Uptime, Memory Usage, Disk Usage, CPU Usage, Network IO. More/prettier soon. 
 
 ## Installation
 
