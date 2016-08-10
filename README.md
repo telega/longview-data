@@ -17,9 +17,10 @@ $ npm install --save longview-data
 It's a CLI tool, provide a list of your keys from longview. eg:
 
 ```sh
-$ node cli MyLongviewKey1 MyLongviewKey2
+$ node longview-data.js MyLongviewKey1 MyLongviewKey2
 
 ```
+
 ## License
 
 MIT © [Thomas Allen](http://telega.org)
