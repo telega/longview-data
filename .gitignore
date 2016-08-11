@@ -1,6 +1,4 @@
 node_modules
 coverage
-gulpfile.js
-test
 .DS_Store
 lib/config.json
