@@ -21,6 +21,13 @@ $ node longview-data.js MyLongviewKey1 MyLongviewKey2
 
 ```
 
+Or provide an array of keys in the config.json file. Then run: 
+
+```sh
+$ node longview-data.js -f
+
+```
+
 ## License
 
 MIT © [Thomas Allen](http://telega.org)
