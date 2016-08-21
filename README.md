@@ -1,6 +1,6 @@
 # longview-data 
 
-Command Line Utility. Get data on your servers from [Linode Longview](https://www.linode.com/longview).
+Command Line Utility. Get data on your servers from [Linode Longview](https://github.com/linode/longview).
 Longview is nice because it can monitor any supported Linux server, not just servers hosted with Linode. You can monitor your home server with it. 
 
 ## Work in Progress

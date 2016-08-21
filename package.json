@@ -1,6 +1,6 @@
 {
   "name": "longview-data",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "description": "Get data on your servers from linode longview",
   "homepage": "http://github.com/telega/longview-data",
   "author": {
@@ -48,7 +48,9 @@
     "test": "gulp"
   },
   "license": "MIT",
-  "bin": "lib/cli.js",
+  "bin": {
+    "longview-data":"lib/longview-data.js"
+    },
   "dependencies": {
     "async": "^2.0.1",
     "cli-table2": "^0.2.0",
